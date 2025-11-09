@@ -1,0 +1,22 @@
+### Create Order
+POST http://localhost:5000/api/orders
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "productName": "Laptop",
+  "quantity": 2,
+  "price": 999.99
+}
+
+### Get All Orders
+GET http://localhost:5000/api/orders
+
+### Get Order by ID (replace with actual orderId)
+GET http://localhost:5000/api/orders/{orderId}
+
+### Get Orders by User ID
+GET http://localhost:5000/api/orders/user/1
+
+### Get Orders by Status
+GET http://localhost:5000/api/orders/status/COMPLETED
