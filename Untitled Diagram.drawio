@@ -1,0 +1,247 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
+  <diagram name="Page-1" id="4x7N54v7i43Xf6wImA7H">
+    <mxGraphModel dx="2246" dy="1457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-22" value="í ¾í·‘ User/Browser" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="590" y="20" width="150" height="2125" as="geometry" />
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-23" value="í ½í³š Swagger UI&#xa;(localhost:5000)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="892" y="20" width="150" height="2125" as="geometry" />
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-24" value="í ½í³¡ OrdersController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1118" y="20" width="165" height="2125" as="geometry" />
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-25" value="í ¼í¾¯ OrderService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1462" y="20" width="150" height="2125" as="geometry" />
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-26" value="í ½í³¤ KafkaProducer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="1713" y="20" width="150" height="2125" as="geometry" />
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-27" value="í ½í´„ Kafka Broker&#xa;(localhost:9092)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="2023" y="20" width="150" height="2125" as="geometry" />
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-28" value="í ½í³¥ KafkaConsumer&#xa;(Background)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="20" width="157" height="2125" as="geometry" />
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-29" value="í ½í²¾ Repository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="2576" y="20" width="150" height="2125" as="geometry" />
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-30" value="1. Open http://localhost:5000" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-22" target="3kNcuka0NKy5AcJa8ps3-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="825" y="176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-31" value="Show API Documentation" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-23" target="3kNcuka0NKy5AcJa8ps3-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="828" y="228" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-32" value="2. POST /api/orders&#xa;{userId, productName, qty, price}" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-22" target="3kNcuka0NKy5AcJa8ps3-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="825" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-33" value="HTTP POST Request" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-23" target="3kNcuka0NKy5AcJa8ps3-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1092" y="353" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-34" value="CreateOrderAsync(request)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-24" target="3kNcuka0NKy5AcJa8ps3-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1377" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-35" value="Create Order object&#xa;Generate OrderId&#xa;Status: &quot;PLACED&quot;" style="curved=1;endArrow=block;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-25" target="3kNcuka0NKy5AcJa8ps3-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1588" y="499" />
+              <mxPoint x="1588" y="529" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-36" value="PublishOrderAsync(order)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-25" target="3kNcuka0NKy5AcJa8ps3-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1671" y="581" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-37" value="Produce message to &#39;orders&#39; topic&#xa;(JSON serialized)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-26" target="3kNcuka0NKy5AcJa8ps3-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1952" y="654" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-38" value="âœ… Ack (partition, offset)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-27" target="3kNcuka0NKy5AcJa8ps3-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1955" y="706" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-39" value="Success" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-26" target="3kNcuka0NKy5AcJa8ps3-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1674" y="758" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-40" value="ApiResponse&lt;OrderResponse&gt;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-25" target="3kNcuka0NKy5AcJa8ps3-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1380" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-41" value="200 OK + Order details" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-24" target="3kNcuka0NKy5AcJa8ps3-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1095" y="862" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-42" value="âœ… Order Created!" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-23" target="3kNcuka0NKy5AcJa8ps3-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="828" y="914" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-43" value="Stream message from &#39;orders&#39; topic" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-27" target="3kNcuka0NKy5AcJa8ps3-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2267" y="1015" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-44" value="Deserialize JSON to Order" style="curved=1;endArrow=block;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-28" target="3kNcuka0NKy5AcJa8ps3-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2469" y="1067" />
+              <mxPoint x="2469" y="1097" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-45" value="SaveOrderAsync(order)&#xa;Status: &quot;PROCESSING&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-28" target="3kNcuka0NKy5AcJa8ps3-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2543" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-46" value="Simulate processing (200ms)" style="curved=1;endArrow=block;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-28" target="3kNcuka0NKy5AcJa8ps3-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2469" y="1222" />
+              <mxPoint x="2469" y="1252" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-47" value="SaveOrderAsync(order)&#xa;Status: &quot;COMPLETED&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-28" target="3kNcuka0NKy5AcJa8ps3-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2543" y="1325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-48" value="Log: âœ… Order completed" style="curved=1;endArrow=block;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-28" target="3kNcuka0NKy5AcJa8ps3-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2469" y="1377" />
+              <mxPoint x="2469" y="1407" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-49" value="3. GET /api/orders" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-22" target="3kNcuka0NKy5AcJa8ps3-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="825" y="1508" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-50" value="HTTP GET Request" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-23" target="3kNcuka0NKy5AcJa8ps3-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1092" y="1560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-51" value="GetAllOrdersAsync()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-24" target="3kNcuka0NKy5AcJa8ps3-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1377" y="1612" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-52" value="GetAllOrdersAsync()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-25" target="3kNcuka0NKy5AcJa8ps3-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2103" y="1664" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-53" value="List&lt;Order&gt;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-29" target="3kNcuka0NKy5AcJa8ps3-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2106" y="1716" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-54" value="Map to OrderResponse[]" style="curved=1;endArrow=block;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-25" target="3kNcuka0NKy5AcJa8ps3-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1588" y="1768" />
+              <mxPoint x="1588" y="1798" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-55" value="ApiResponse&lt;List&lt;OrderResponse&gt;&gt;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-25" target="3kNcuka0NKy5AcJa8ps3-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1380" y="1850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-56" value="200 OK + All orders" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-24" target="3kNcuka0NKy5AcJa8ps3-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1095" y="1902" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-57" value="í ½í³‹ Display all orders" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="3kNcuka0NKy5AcJa8ps3-23" target="3kNcuka0NKy5AcJa8ps3-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="828" y="1954" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-58" value="í ½í¿¢ CREATE ORDER FLOW" style="fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="640" y="95" width="2036" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-59" value="í ½í´µ BACKGROUND PROCESSING" style="fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="2393" y="934" width="283" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-60" value="í ½í¿£ GET ORDERS FLOW" style="fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1427" width="2036" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="3kNcuka0NKy5AcJa8ps3-61" value="í ½í²¡ Kafka runs in Docker container&#xa;Zookeeper (port 2181) manages Kafka&#xa;Kafka Broker (port 9092) stores messages" style="fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1943" y="1974" width="311" height="86" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
